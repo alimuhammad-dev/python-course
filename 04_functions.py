@@ -1,6 +1,3 @@
-def apply_discount(total, rate):
-    discount = total * rate
-    return total - discount
 # def apply_discount(total, rate):
 #     discount = total * rate
 #     return total - discount
