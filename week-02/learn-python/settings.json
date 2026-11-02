@@ -1,0 +1,50 @@
+{
+    "files.autoSave": "afterDelay",
+
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+
+    "liveServer.settings.donotShowInfoMsg": true,
+
+    "workbench.editor.empty.hint": "hidden",
+
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "claudeCode.preferredLocation": "panel",
+
+    "workbench.editor.useModal": "some",
+
+    "js/ts.updateImportsOnFileMove.enabled": "always",
+
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "chat.viewSessions.orientation": "stacked",
+    "chat.disableAIFeatures": true,
+     
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ruff": "explicit",
+      "source.organizeImports.ruff": "explicit"
+    }
+  
+}
+} 
+
+
