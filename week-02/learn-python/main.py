@@ -31,3 +31,10 @@ from enum import StrEnum
 # print(TaskPriority.LOW)  # low
 # print(repr(TaskPriority.LOW))  # <TaskPriority.LOW: 'low'>
 
+total = 0
+def main():
+    total = 34343+34343
+    unused = 5
+
+main()
+print("total", total)

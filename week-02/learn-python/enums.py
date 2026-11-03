@@ -44,9 +44,10 @@
 # statuses = ["pending", "delivered", "lost", "Cancelled", "cancelled"]
 
 # for status in statuses:
-#     try:
-#         order_status = OrderStatus(status.lower())
-#         print(order_status)
+#     status = status.lower()
 
-#     except ValueError:
+#     if status == "pending" or status == "delivered" or status == "cancelled":
+#         order_status = OrderStatus(status)
+#         print(order_status)
+#     else:
 #         print(f"Skipping '{status}': not a valid status")
